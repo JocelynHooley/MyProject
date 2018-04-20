@@ -52,7 +52,7 @@ public class Calculator {
             result = Integer.parseInt(values[0]) / Integer.parseInt(values[1]);
         } else {
 
-            error = "Something has gone terribly, terribly wrong";
+            error = "Something has gone terribly, terrible, terribly wrong";
         }
 
 //Print the results
