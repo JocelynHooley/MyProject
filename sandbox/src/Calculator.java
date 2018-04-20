@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class Calculator {
 
@@ -51,7 +50,6 @@ public class Calculator {
         } else if (operator == '/') {
             result = Integer.parseInt(values[0]) / Integer.parseInt(values[1]);
         } else {
-
             error = "Something has gone terribly, terrible, terribly wrong";
         }
 
@@ -59,7 +57,6 @@ public class Calculator {
 
         if (error.equals("None")) {
             System.out.println("Your answer is: " + result);
-
         } else {
             System.out.println(error);
         }
